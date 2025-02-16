@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+    
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  nav {
+    margin-left: auto;
+    
+    ul {
+      display: flex;
+      list-style: none;
+      gap: 1rem;
+    }
+  }
+} 
